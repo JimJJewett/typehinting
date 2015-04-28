@@ -102,7 +102,7 @@ with at least one argument or return annotation is checked, unless
 type checking is disabled by the ``@no_type_check`` decorator or a
 ``# type: ignore`` comment (see below).
 
-It is recommended but not required that checked function have
+It is recommended but not required that each checked function have
 annotations for all its arguments and its return type.  For a checked
 function, the default annotation for arguments and for the return type
 is ``Any``.  An exception is that the first argument of instance and
